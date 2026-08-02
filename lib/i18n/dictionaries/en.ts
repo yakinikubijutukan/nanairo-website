@@ -105,6 +105,20 @@ const en: Dictionary = {
       body: "Localized listings, advertising, and review strategy built for the algorithm and the consumer psychology unique to Amazon.co.jp — coordinated with FBA logistics from day one.",
       cta: "Explore Amazon Japan",
     },
+    inHouseDevelopment: {
+      headline: "Developed In-House",
+      body: "Our Fire Starter Stove is an original product designed and developed by NANAIRO LLC. The product is protected by a registered Japanese Utility Model (Registration No. 3246287) and is sold through major Japanese e-commerce platforms, including Amazon Japan. We provide OEM manufacturing, wholesale supply, and international business partnerships worldwide.",
+      points: [
+        "In-house Product Development",
+        "Registered Japanese Utility Model",
+        "Sold on Amazon Japan",
+        "OEM & Wholesale Available Worldwide",
+      ],
+      utilityModelButton: "Utility Model No. 3246287",
+      amazonButton: "View on Amazon Japan",
+      certificateLabel: "Registered Japanese Utility Model",
+      certificateNumber: "Registration No. 3246287",
+    },
     distribution: {
       headline: "Beyond Amazon — real shelf space.",
       body: "Access to vetted retail, department store, specialty store, and wholesale distribution across Japan, built on relationships — not cold outreach.",

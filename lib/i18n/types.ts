@@ -95,6 +95,15 @@ export type Dictionary = {
       body: string;
       cta: string;
     };
+    inHouseDevelopment: {
+      headline: string;
+      body: string;
+      points: [string, string, string, string];
+      utilityModelButton: string;
+      amazonButton: string;
+      certificateLabel: string;
+      certificateNumber: string;
+    };
     distribution: {
       headline: string;
       body: string;

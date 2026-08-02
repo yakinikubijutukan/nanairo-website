@@ -104,6 +104,20 @@ const ja: Dictionary = {
       body: "Amazon.co.jp独自のアルゴリズムと消費者心理に合わせて構築された、ローカライズされた商品ページ、広告、レビュー戦略。FBAロジスティクスとも初日から連携します。",
       cta: "Amazon Japanについて詳しく見る",
     },
+    inHouseDevelopment: {
+      headline: "自社開発・知的財産",
+      body: "合同会社七色では、火種コンロを自社で企画・開発し、日本の実用新案（登録第3246287号）を取得しています。現在はAmazon Japanをはじめとする日本国内の主要ECプラットフォームで販売しており、OEM・卸売・海外取引にも対応しています。",
+      points: [
+        "自社製品開発",
+        "日本実用新案登録済み",
+        "Amazon Japanで販売中",
+        "OEM・卸売、海外取引に対応",
+      ],
+      utilityModelButton: "実用新案 登録第3246287号",
+      amazonButton: "Amazonで見る",
+      certificateLabel: "実用新案登録",
+      certificateNumber: "登録第3246287号",
+    },
     distribution: {
       headline: "Amazonの先へ——実店舗の棚を確保する。",
       body: "冷たい飛び込み営業ではなく、確かな関係性に基づいた、日本全国の厳選された小売店、百貨店、専門店、卸販売網へのアクセス。",

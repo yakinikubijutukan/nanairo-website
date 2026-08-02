@@ -100,6 +100,20 @@ const zhCN: Dictionary = {
       body: "根据Amazon.co.jp独特的算法与消费者心理，量身定制本地化商品页面、广告投放与评价策略，从第一天起就与FBA物流紧密衔接。",
       cta: "深入了解Amazon Japan",
     },
+    inHouseDevelopment: {
+      headline: "自主研发与知识产权",
+      body: "七色有限责任公司（NANAIRO LLC）自主策划开发了火种炉（Fire Starter Stove），并已取得日本实用新型注册（注册号第3246287号）。该产品目前正通过包括Amazon Japan在内的日本主要电商平台销售，并可提供OEM代工、批发供货及全球业务合作。",
+      points: [
+        "自主产品研发",
+        "已取得日本实用新型注册",
+        "在Amazon Japan销售中",
+        "面向全球提供OEM与批发合作",
+      ],
+      utilityModelButton: "实用新型注册号 3246287",
+      amazonButton: "前往Amazon查看",
+      certificateLabel: "日本实用新型注册",
+      certificateNumber: "注册号第3246287号",
+    },
     distribution: {
       headline: "不止于Amazon——真正的实体货架空间。",
       body: "我们不做陌生开发，而是凭借长期建立的信任关系，为您接入日本各地经过严格筛选的零售、百货、专卖店与批发分销网络。",

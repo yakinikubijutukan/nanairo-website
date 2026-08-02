@@ -103,6 +103,20 @@ const ko: Dictionary = {
       body: "Amazon.co.jp만의 알고리즘과 소비자 심리에 맞춰 구축된 현지화 상품 페이지, 광고, 리뷰 전략. 첫날부터 FBA 물류와 연동됩니다.",
       cta: "Amazon Japan 자세히 보기",
     },
+    inHouseDevelopment: {
+      headline: "자체 개발·지적재산",
+      body: "나나이로(Nanairo LLC)는 파이어 스타터 스토브를 자체적으로 기획·개발했으며, 일본 실용신안(등록 제3246287호)을 등록했습니다. 현재 Amazon Japan을 비롯한 일본 주요 이커머스 플랫폼에서 판매 중이며, OEM 생산, 도매 공급, 해외 비즈니스 파트너십에도 대응하고 있습니다.",
+      points: [
+        "자체 제품 개발",
+        "일본 실용신안 등록 완료",
+        "Amazon Japan 판매 중",
+        "전 세계 OEM·도매 공급 가능",
+      ],
+      utilityModelButton: "실용신안 등록 제3246287호",
+      amazonButton: "Amazon에서 보기",
+      certificateLabel: "일본 실용신안 등록",
+      certificateNumber: "등록 제3246287호",
+    },
     distribution: {
       headline: "Amazon을 넘어 — 실제 매장 진열 공간까지.",
       body: "무작정 영업하지 않습니다. 신뢰를 바탕으로 구축된 관계를 통해, 일본 전역의 엄선된 리테일, 백화점, 전문점, 도매 유통망에 접근합니다.",

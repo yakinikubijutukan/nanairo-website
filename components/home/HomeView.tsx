@@ -10,6 +10,7 @@ import { ThreadDivider, ThreadMark } from "@/components/Thread";
 import { DarkStage, LightStage, JourneyLine, ArchitecturalBars } from "@/components/Visuals";
 import CapabilityReel from "@/components/home/CapabilityReel";
 import TrustStrip from "@/components/home/TrustStrip";
+import InHouseDevelopment from "@/components/home/InHouseDevelopment";
 import type { Locale } from "@/lib/i18n/config";
 import type { Dictionary } from "@/lib/i18n/types";
 
@@ -199,6 +200,9 @@ export default function HomeView({ locale, dict }: { locale: Locale; dict: Dicti
         </div>
       </section>
 
+      {/* 6.5 — Developed In-House: proof of original product development */}
+      <InHouseDevelopment dict={dict} />
+
       {/* 7 — Distribution */}
       <section className="relative overflow-hidden bg-sumi py-32 text-washi md:py-48">
         <div className="mx-auto grid max-w-[1600px] grid-cols-1 items-center gap-16 px-6 md:grid-cols-2 md:px-12">
@@ -206,7 +210,7 @@ export default function HomeView({ locale, dict }: { locale: Locale; dict: Dicti
             <ArchitecturalBars className="text-washi" />
           </Reveal>
           <Reveal delay={0.1} className="order-1 md:order-2">
-            <ThreadMark index={2} />
+            <ThreadMark index={3} />
             <h2 className="mt-6 max-w-lg text-balance font-display text-4xl font-medium leading-tight md:text-6xl">
               {t.distribution.headline}
             </h2>
