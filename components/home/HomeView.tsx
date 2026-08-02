@@ -202,7 +202,7 @@ export default function HomeView({ locale, dict }: { locale: Locale; dict: Dicti
       </section>
 
       {/* 6.5 — Developed In-House: proof of original product development */}
-
+      <InHouseDevelopment dict={dict} />
       {/* 7 — Distribution */}
       <section className="relative overflow-hidden bg-sumi py-32 text-washi md:py-48">
         <div className="mx-auto grid max-w-[1600px] grid-cols-1 items-center gap-16 px-6 md:grid-cols-2 md:px-12">
