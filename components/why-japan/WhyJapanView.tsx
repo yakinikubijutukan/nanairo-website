@@ -1,12 +1,12 @@
 "use client";
 
 import { useRef } from "react";
+import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import MagneticButton from "@/components/MagneticButton";
 import { Reveal, RevealGroup, RevealItem } from "@/components/Reveal";
 import StatCounter from "@/components/StatCounter";
 import { ThreadDivider } from "@/components/Thread";
-import { DotField } from "@/components/Visuals";
 import type { Locale } from "@/lib/i18n/config";
 import type { Dictionary } from "@/lib/i18n/types";
 
@@ -27,7 +27,15 @@ export default function WhyJapanView({ locale, dict }: { locale: Locale; dict: D
       {/* Hero */}
       <section className="relative flex min-h-[85vh] items-center overflow-hidden bg-washi px-6 pt-32 md:px-12">
         <div className="pointer-events-none absolute inset-y-0 right-0 w-1/2 text-sumi">
-          <DotField className="h-full w-full" />
+          <div className="relative flex h-full w-full items-center justify-center overflow-hidden">
+            <Image
+              src="/images/japan-network.webp"
+              alt="Technology and network infrastructure"
+              fill
+              priority
+              className="object-contain"
+            />
+          </div>
         </div>
         <div className="relative z-10 max-w-3xl">
           <Reveal>

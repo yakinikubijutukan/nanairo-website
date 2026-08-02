@@ -1,13 +1,14 @@
 "use client";
 
 import { useRef } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
 import MagneticButton from "@/components/MagneticButton";
 import { Reveal, RevealGroup, RevealItem } from "@/components/Reveal";
 import StatCounter from "@/components/StatCounter";
 import { ThreadDivider, ThreadMark } from "@/components/Thread";
-import { DarkStage, LightStage, JourneyLine, ArchitecturalBars } from "@/components/Visuals";
+import { DarkStage, JourneyLine, ArchitecturalBars } from "@/components/Visuals";
 import CapabilityReel from "@/components/home/CapabilityReel";
 import TrustStrip from "@/components/home/TrustStrip";
 import InHouseDevelopment from "@/components/home/InHouseDevelopment";
@@ -164,7 +165,6 @@ export default function HomeView({ locale, dict }: { locale: Locale; dict: Dicti
       {/* 5 — Our Expertise: horizontal capability reel (8 pillars) */}
       <CapabilityReel dict={dict} />
 
-
       {/* 6 — Amazon Japan */}
       <section className="relative overflow-hidden bg-washi py-32 md:py-48">
         <div className="mx-auto grid max-w-[1600px] grid-cols-1 items-center gap-16 px-6 md:grid-cols-2 md:px-12">
@@ -184,17 +184,15 @@ export default function HomeView({ locale, dict }: { locale: Locale; dict: Dicti
           </Reveal>
 
           <Reveal delay={0.15}>
-            <div className="relative aspect-[4/3] w-full overflow-hidden rounded-sm border border-platinum bg-sumi/[0.02] p-8">
+            <div className="relative aspect-[4/3] w-full overflow-hidden rounded-sm border border-platinum bg-sumi/[0.02]">
               <div className="absolute inset-0">
-                <LightStage />
-              </div>
-              <div className="relative flex h-full flex-col justify-between">
-                <div className="h-3 w-24 rounded-full bg-thread opacity-70" />
-                <div className="space-y-3">
-                  <div className="h-3 w-3/4 bg-sumi/10" />
-                  <div className="h-3 w-1/2 bg-sumi/10" />
-                  <div className="h-8 w-1/3 rounded-full bg-sumi" />
-                </div>
+                <Image
+                  src="/images/business-partnership.jpg"
+                  alt="Business partnership"
+                  fill
+                  priority
+                  className="object-cover"
+                />
               </div>
             </div>
           </Reveal>
@@ -203,6 +201,7 @@ export default function HomeView({ locale, dict }: { locale: Locale; dict: Dicti
 
       {/* 6.5 — Developed In-House: proof of original product development */}
       <InHouseDevelopment dict={dict} />
+
       {/* 7 — Distribution */}
       <section className="relative overflow-hidden bg-sumi py-32 text-washi md:py-48">
         <div className="mx-auto grid max-w-[1600px] grid-cols-1 items-center gap-16 px-6 md:grid-cols-2 md:px-12">
