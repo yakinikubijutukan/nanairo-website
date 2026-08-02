@@ -163,6 +163,8 @@ export default function HomeView({ locale, dict }: { locale: Locale; dict: Dicti
 
       {/* 5 — Our Expertise: horizontal capability reel (8 pillars) */}
       <CapabilityReel dict={dict} />
+      <InHouseDevelopment dict={dict} />
+      
 
       {/* 6 — Amazon Japan */}
       <section className="relative overflow-hidden bg-washi py-32 md:py-48">
