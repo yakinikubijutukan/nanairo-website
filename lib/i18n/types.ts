@@ -212,22 +212,8 @@ export type Dictionary = {
     };
   };
 
+  /** Page heading for /contact — the page now shows company info only (email, "Nanairo LLC", location), no form. */
   contact: {
     heroEyebrow: string;
-    heroHeadline: string;
-    reassurance: string;
-    form: {
-      name: string;
-      company: string;
-      country: string;
-      category: string;
-      email: string;
-      message: string;
-      send: string;
-      sending: string;
-      error: string;
-      successTitle: string;
-      successBody: string;
-    };
   };
 };

@@ -399,22 +399,6 @@ const ja: Dictionary = {
 
   contact: {
     heroEyebrow: "お問い合わせ",
-    heroHeadline: "貴社ブランドの日本での未来について、お話ししましょう。",
-    reassurance:
-      "2営業日以内にご返信し、次のステップをご案内します。このページの役割はただひとつ——正しい対話を始めることです。",
-    form: {
-      name: "お名前",
-      company: "会社名",
-      country: "国",
-      category: "製品カテゴリー",
-      email: "メールアドレス",
-      message: "貴社製品について教えてください",
-      send: "送信する",
-      sending: "送信中…",
-      error: "エラーが発生しました。もう一度お試しください。",
-      successTitle: "ありがとうございます。",
-      successBody: "メッセージがNanairoに届きました。2営業日以内に、次のステップをご案内いたします。",
-    },
   },
 };
 

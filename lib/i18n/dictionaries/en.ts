@@ -410,22 +410,6 @@ const en: Dictionary = {
 
   contact: {
     heroEyebrow: "Contact",
-    heroHeadline: "Let's talk about your brand's future in Japan.",
-    reassurance:
-      "We respond within two business days with next steps. This page has exactly one job — starting the right conversation.",
-    form: {
-      name: "Full name",
-      company: "Company",
-      country: "Country",
-      category: "Product category",
-      email: "Email address",
-      message: "Tell us about your product",
-      send: "Send message",
-      sending: "Sending…",
-      error: "Something went wrong — please try again.",
-      successTitle: "Thank you.",
-      successBody: "Your message has reached Nanairo. We respond within two business days with next steps.",
-    },
   },
 };
 

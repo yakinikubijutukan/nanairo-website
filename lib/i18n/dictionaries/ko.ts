@@ -368,22 +368,6 @@ const ko: Dictionary = {
 
   contact: {
     heroEyebrow: "문의하기",
-    heroHeadline: "귀사 브랜드의 일본에서의 미래에 대해 이야기해 보겠습니다.",
-    reassurance:
-      "영업일 기준 2일 이내에 다음 단계를 안내해 드립니다. 이 페이지의 역할은 단 하나 — 올바른 대화를 시작하는 것입니다.",
-    form: {
-      name: "이름",
-      company: "회사명",
-      country: "국가",
-      category: "제품 카테고리",
-      email: "이메일 주소",
-      message: "귀사 제품에 대해 알려주세요",
-      send: "메시지 보내기",
-      sending: "전송 중…",
-      error: "문제가 발생했습니다. 다시 시도해 주세요.",
-      successTitle: "감사합니다.",
-      successBody: "메시지가 Nanairo에 전달되었습니다. 영업일 기준 2일 이내에 다음 단계를 안내해 드립니다.",
-    },
   },
 };
 

@@ -360,21 +360,6 @@ const zhCN: Dictionary = {
 
   contact: {
     heroEyebrow: "联系我们",
-    heroHeadline: "让我们聊聊您的品牌在日本的未来。",
-    reassurance: "我们将在两个工作日内回复并说明后续步骤。这个页面只有一个使命——开启一次正确的对话。",
-    form: {
-      name: "姓名",
-      company: "公司名称",
-      country: "国家/地区",
-      category: "产品类别",
-      email: "电子邮箱",
-      message: "请介绍一下您的产品",
-      send: "发送信息",
-      sending: "发送中…",
-      error: "出现问题，请重试。",
-      successTitle: "感谢您的联系。",
-      successBody: "您的信息已送达Nanairo。我们将在两个工作日内回复并说明后续步骤。",
-    },
   },
 };
 

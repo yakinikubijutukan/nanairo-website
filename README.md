@@ -72,32 +72,18 @@ To add a fifth language later: add the locale code to `lib/i18n/config.ts`,
 add a matching dictionary file in `lib/i18n/dictionaries/`, and TypeScript
 will flag anywhere the new dictionary is missing a key.
 
-## Contact form email delivery
+## Contact
 
-The `/contact` form posts to `app/api/contact/route.ts`, which sends a
-notification email through [Resend](https://resend.com) — no other
-service (SMTP, Nodemailer, SendGrid, Formspree, a CRM) is wired in.
+There is no contact form. `/contact` displays company info only — email
+(`info@nanairo-llc.com`, a live `mailto:` link), company name ("Nanairo
+LLC"), and location ("Shiga, Japan" / localized) — the same info shown in
+the footer. The language switcher still works normally on this page.
 
-Setup:
-
-1. `npm install resend` (not yet in `package.json` — see note below).
-2. Create a free account at resend.com and generate an API key.
-3. Copy `.env.example` to `.env.local` and paste the key into
-   `RESEND_API_KEY`.
-4. Optionally set `CONTACT_RECIPIENT_EMAIL` if inquiries should go
-   somewhere other than `info@nanairo-llc.com` (the address already used
-   throughout the site, in the footer and mailto links) and
-   `CONTACT_FROM_EMAIL` once you've verified a sending domain in Resend.
-5. Restart `npm run dev`. Without `RESEND_API_KEY` set, the endpoint
-   returns a 500 with a clear "email delivery is not configured" error
-   rather than pretending to send — check your terminal log if a test
-   submission fails.
-
-> **Why `npm install resend` is a separate step:** this project was built
-> in a sandbox with no npm registry access, so I couldn't install the
-> package or verify its exact current version here — the import
-> (`import { Resend } from "resend"`) is already in the route file and
-> will resolve as soon as you install it locally.
+`app/api/contact/route.ts` and the old Resend integration have been
+retired; the file now just returns `410 Gone` as an inert stub, since this
+environment couldn't delete it outright. Feel free to delete
+`app/api/contact/`, `components/ContactForm.tsx`, and `.env.example`
+yourself — none of them are referenced from anywhere in the app anymore.
 
 ## What's implemented
 
@@ -120,10 +106,8 @@ Setup:
   parallax, a horizontal "capability reel" on Home, a synchronized
   split-screen on Why Japan, a sticky chapter index on Services, and a
   pinned horizontal "configurator" sequence on Process.
-- A working `/contact` form wired to a real API route
-  (`app/api/contact/route.ts`) with validation, and email delivery via
-  [Resend](https://resend.com) — see "Contact form email delivery" below
-  for setup.
+- `/contact` shows company info only (email, company name, location) —
+  see "Contact" below.
 - Full `prefers-reduced-motion` fallback throughout.
 
 ## Before you launch
@@ -139,11 +123,9 @@ Setup:
    dot fields, architectural bars) as placeholders. Swap these for
    commissioned product photography / film once available — every spot is
    clearly marked in that file.
-3. **Contact form backend** — done: `app/api/contact/route.ts` sends a
-   notification email via Resend for every submission. You still need to
-   supply your own `RESEND_API_KEY` — see "Contact form email delivery"
-   below. Without it, submissions are rejected with a clear error instead
-   of silently disappearing.
+3. **Contact** — no form, no backend to configure. If you want a form
+   back later, `app/api/contact/route.ts` is an inert 410 stub you can
+   replace with a real integration (Resend, SMTP, a CRM, etc.).
 4. **Real stats** — the numbers used in the "Why Japan" stat callouts are
    illustrative. Replace with sourced, citable figures before launch.
 5. **Metadata** — update `metadataBase` in `app/[locale]/layout.tsx` to
