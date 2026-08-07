@@ -118,6 +118,21 @@ const ja: Dictionary = {
       certificateLabel: "実用新案登録",
       certificateNumber: "登録第3246287号",
     },
+    founder: {
+      eyebrow: "Founder",
+      name: "Shinji Nakai",
+      subtitle: "Founder & CEO, Nanairo LLC",
+      headline: "日本市場向けの商品開発・販売を長年にわたり実践してきたパートナー。",
+      body: "日本市場向けの商品開発・販売を長年行い、Amazon Japanを中心としたEC販売、ブランド構築、商品企画、物流、海外メーカーとの取引まで一貫して経験。海外企業の日本市場参入を実務面から支援します。",
+      achievements: [
+        "Amazon Japanで多数の商品を販売",
+        "商品企画・ブランド構築",
+        "日本市場向けローカライズ",
+        "Amazonブランド登録",
+        "実用新案取得",
+        "中国メーカーとの直接取引",
+      ],
+    },
     distribution: {
       headline: "Amazonの先へ——実店舗の棚を確保する。",
       body: "冷たい飛び込み営業ではなく、確かな関係性に基づいた、日本全国の厳選された小売店、百貨店、専門店、卸販売網へのアクセス。",

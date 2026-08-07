@@ -117,6 +117,21 @@ const ko: Dictionary = {
       certificateLabel: "일본 실용신안 등록",
       certificateNumber: "등록 제3246287호",
     },
+    founder: {
+      eyebrow: "Founder",
+      name: "Shinji Nakai",
+      subtitle: "Founder & CEO, Nanairo LLC",
+      headline: "일본 시장을 위해 제품 개발과 판매를 오랫동안 직접 실무해 온 파트너입니다.",
+      body: "일본 시장을 위한 제품 개발과 판매를 오랫동안 경험해 왔으며, Amazon Japan 중심의 전자상거래, 브랜드 구축, 상품 기획, 물류, 해외 제조사와의 거래까지 한 흐름으로 다뤄왔습니다. 해외 기업이 일본 시장에 진출할 때 실무 중심으로 지원합니다.",
+      achievements: [
+        "Amazon Japan에서 다수의 제품 판매",
+        "상품 기획·브랜드 구축",
+        "일본 시장 맞춤 로컬라이제이션",
+        "Amazon 브랜드 등록",
+        "실용신안 취득",
+        "중국 제조사와의 직접 거래",
+      ],
+    },
     distribution: {
       headline: "Amazon을 넘어 — 실제 매장 진열 공간까지.",
       body: "무작정 영업하지 않습니다. 신뢰를 바탕으로 구축된 관계를 통해, 일본 전역의 엄선된 리테일, 백화점, 전문점, 도매 유통망에 접근합니다.",

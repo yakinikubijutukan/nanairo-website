@@ -114,6 +114,21 @@ const zhCN: Dictionary = {
       certificateLabel: "日本实用新型注册",
       certificateNumber: "注册号第3246287号",
     },
+    founder: {
+      eyebrow: "Founder",
+      name: "Shinji Nakai",
+      subtitle: "Founder & CEO, Nanairo LLC",
+      headline: "拥有多年日本市场产品开发与销售实战经验的合作伙伴。",
+      body: "他长期从事面向日本市场的产品开发与销售，贯穿Amazon Japan为中心的电商销售、品牌建设、商品企划、物流以及与海外制造商的交易环节。为海外企业提供切实可行的日本市场进入支持。",
+      achievements: [
+        "在Amazon Japan销售过多款产品",
+        "商品企划与品牌构建",
+        "面向日本市场的本地化",
+        "Amazon品牌注册",
+        "实用新型取得",
+        "与中国制造商的直接交易经验",
+      ],
+    },
     distribution: {
       headline: "不止于Amazon——真正的实体货架空间。",
       body: "我们不做陌生开发，而是凭借长期建立的信任关系，为您接入日本各地经过严格筛选的零售、百货、专卖店与批发分销网络。",

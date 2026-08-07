@@ -12,6 +12,7 @@ import { DarkStage, JourneyLine, ArchitecturalBars } from "@/components/Visuals"
 import CapabilityReel from "@/components/home/CapabilityReel";
 import TrustStrip from "@/components/home/TrustStrip";
 import InHouseDevelopment from "@/components/home/InHouseDevelopment";
+import Founder from "@/components/home/Founder";
 import type { Locale } from "@/lib/i18n/config";
 import type { Dictionary } from "@/lib/i18n/types";
 
@@ -201,6 +202,9 @@ export default function HomeView({ locale, dict }: { locale: Locale; dict: Dicti
 
       {/* 6.5 — Developed In-House: proof of original product development */}
       <InHouseDevelopment dict={dict} />
+
+      {/* 6.6 — Meet the Founder */}
+      <Founder dict={dict} />
 
       {/* 7 — Distribution */}
       <section className="relative overflow-hidden bg-sumi py-32 text-washi md:py-48">

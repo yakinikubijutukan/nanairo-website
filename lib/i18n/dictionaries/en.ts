@@ -119,6 +119,21 @@ const en: Dictionary = {
       certificateLabel: "Registered Japanese Utility Model",
       certificateNumber: "Registration No. 3246287",
     },
+    founder: {
+      eyebrow: "Founder",
+      name: "Shinji Nakai",
+      subtitle: "Founder & CEO, Nanairo LLC",
+      headline: "A partner with years of hands-on experience in product development and sales for the Japanese market.",
+      body: "With long-term experience in product development and sales for the Japanese market, he has handled end-to-end work across Amazon Japan-focused e-commerce, brand building, product planning, logistics, and transactions with overseas manufacturers. He supports overseas companies with practical, on-the-ground assistance for entering the Japanese market.",
+      achievements: [
+        "Sold numerous products on Amazon Japan",
+        "Product planning and brand building",
+        "Localization for the Japanese market",
+        "Amazon brand registration",
+        "Utility model acquisition",
+        "Direct transactions with Chinese manufacturers",
+      ],
+    },
     distribution: {
       headline: "Beyond Amazon — real shelf space.",
       body: "Access to vetted retail, department store, specialty store, and wholesale distribution across Japan, built on relationships — not cold outreach.",

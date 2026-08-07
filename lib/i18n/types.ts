@@ -104,6 +104,14 @@ export type Dictionary = {
       certificateLabel: string;
       certificateNumber: string;
     };
+    founder: {
+      eyebrow: string;
+      name: string;
+      subtitle: string;
+      headline: string;
+      body: string;
+      achievements: [string, string, string, string, string, string];
+    };
     distribution: {
       headline: string;
       body: string;
